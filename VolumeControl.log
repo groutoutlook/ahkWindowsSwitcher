@@ -1,0 +1,52 @@
+﻿HH:mm:ss:fff              === Log Initialized @ Monday, July 8, 2024 3:52:52 AM ===  { LogFilter: 62 (INFO, WARN, ERROR, CRITICAL, FATAL) }
+10:52:52:593  [INFO]      Config Path: "VolumeControl.json"
+                          Log Path:    "VolumeControl.log"
+10:52:53:121  [INFO]      Config version is 0.0.0, settings will be migrated to version 6.6.3.
+10:52:54:962  [INFO]      Volume Control version 6.6.3 (Portable)
+10:52:55:184  [INFO]      Microsoft Windows 11 Pro (64-bit)
+10:52:57:263  [CRITICAL]  There was a problem with the hotkeys provided by the previous configuration. Attempting to load default hotkeys instead.
+10:52:57:264  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "DefaultHotkeyNames.Un/Lock Session"
+10:52:57:277  [ERROR]     [WindowsHotkeyAPI] An error occurred while registering hotkey 6 "Toggle Selected" (Alt+Ctrl+Shift+W): {
+                            "Message": "Hot key is already registered."
+                            "HResult": "1409"
+                            "ExceptionType": "VolumeControl.Core.Input.Exceptions.HotkeyRegistrationException"
+                            "Source": "VolumeControl.Core"
+                            "TargetSite": {
+                              "Name": "Register"
+                              "DeclaringType": "VolumeControl.Core.Input.WindowsHotkeyAPI"
+                              "Attributes": "PrivateScope, Public, Static, HideBySig"
+                              "CallingConvention": "Standard"
+                            }
+                            "StackTrace": {
+                              [0] at VolumeControl.Core.Input.WindowsHotkeyAPI.Register(IHotkey hotkey)
+                              [1] at VolumeControl.Core.Input.WindowsHotkeyAPI.TryRegister(IHotkey hotkey)
+                            }
+                          }
+10:52:57:618  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.MainWindow.Settings.Audio.AdditionalSettings.Header.Tooltip"
+10:52:57:619  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.MainWindow.Settings.Audio.AdditionalSettings.HiddenSessions.Tooltip"
+10:52:57:629  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.MainWindow.Settings.Notifications.AdditionalSettings.Header.Tooltip"
+10:52:57:629  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.ListNotification.Options.SavePosition.Tooltip"
+10:52:57:629  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.ListNotification.Options.SavePosition.Tooltip"
+10:52:57:630  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.MainWindow.Settings.Notifications.SessionListNotificationConfig.Header.Tooltip"
+10:52:57:631  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.MainWindow.Settings.Notifications.DeviceListNotificationConfig.Header.Tooltip"
+10:52:57:642  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.MainWindow.Settings.Application.ShowInTaskbar.Tooltip"
+10:52:57:643  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.MainWindow.Settings.Application.AlwaysOnTop.Tooltip"
+10:53:11:326  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.VolumeUp"
+10:53:11:327  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.VolumeDown"
+10:53:11:328  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.VolumeMute"
+10:53:11:337  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.E"
+10:53:11:338  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.Q"
+10:53:11:338  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.S"
+10:53:11:339  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.W"
+10:53:11:347  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.W"
+10:53:11:347  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.S"
+10:53:11:347  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.Q"
+10:53:11:348  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.E"
+10:53:11:348  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.VolumeMute"
+10:53:11:348  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.VolumeDown"
+10:53:11:349  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "Enums.EFriendlyKey.VolumeUp"
+10:53:15:588  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.ListNotification.Options.FadeIn.Tooltip"
+10:53:15:590  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.ListNotification.Options.FadeOut.Tooltip"
+10:53:15:625  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.ListNotification.Options.FadeIn.Tooltip"
+10:53:15:625  [WARN]      [LocalizationHelper] "English (US/CA)" is missing a translation for key "VolumeControl.ListNotification.Options.FadeOut.Tooltip"
+10:53:28:323  [INFO]      App exited with code 0
