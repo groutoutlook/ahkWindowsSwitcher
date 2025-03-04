@@ -1,7 +1,6 @@
 #Requires AutoHotkey v1.1.33+
 ; TODO: Rewrite in ahk v2
-
-
+#+S::Run "C://Users//COHOTECH//scoop//apps//ScreenCapture_dodorz//current//ScreenCapture.exe" "--lang:en_us"
 #SingleInstance Force ; The script will Reload if launched while already running
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases
 #KeyHistory 0 ; Ensures user privacy when debugging is not needed
